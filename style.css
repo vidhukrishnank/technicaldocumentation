@@ -1,0 +1,167 @@
+#navbar {
+  
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0px;
+  height: 50vh;
+  left: 0px;
+  background-color: #654321;
+}
+#navbar header {
+  color: 	white;
+  font-family: sans-serif,serif;
+  font-size: 30px;
+  font-weight: bold;
+  
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+#navbar ul {
+  font-family: sans-serif,serif;
+  width: 100%;
+  list-style: none;
+  height: 80%;
+  background-color: #8B4513;
+  margin-left: -40px;
+}
+#navbar li {
+  border-top: 1px solid;
+  color: #664344;
+  border-width: 2px;
+  padding: 4px;
+  text-align: center;
+  
+}
+#navbar li:hover {
+  
+  background-color: #654321;
+}
+#navbar a {
+  
+  color: white;
+  text-align: center;
+}
+
+#main-doc {
+  
+  margin-left: 20vw;
+}
+#main-doc header {
+  font-family: sans-serif,serif;
+  margin: 40px auto auto 40px;
+  
+  font-size: 30px;
+}
+
+
+p {
+  margin: auto 70px 20px 70px;
+  font-familty: sans-serif, serif;
+  font-size: 20px;
+  padding: 10px;
+  color: #606060;
+}
+
+code {
+  
+  display: block;
+  color: white;
+  padding: 10px;
+  margin: auto 100px auto 100px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #080808;
+}
+
+#main-doc ul {
+  font-family: sans-serif;
+  
+  margin-left: 100px;
+  color: #606060;
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  
+  
+  #main-doc {
+  
+  margin: 50vh auto auto 5px;
+  }
+  p {
+    
+    margin: 10px;
+  }
+  code {
+    
+    margin: auto 30px;
+  }
+  #main-doc ul {
+  
+    margin-left: 0px;
+  }
+  #main-doc header {
+    
+    margin-left: 5px;
+  }
+  
+  
+}
+@media (min-width: 600px) {
+  
+  #navbar {
+  
+  position: fixed;
+  width: 20vw;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #654321;
+  
+}
+  #navbar header {
+  color: 	white;
+  font-family: sans-serif,serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  
+}
+  #navbar ul {
+  font-family: sans-serif,serif;
+  width: 100%;
+  list-style: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: -40px;
+  background-color: #8B4513;
+  height: 100%;
+  
+}
+
+#navbar li {
+  border-top: 1px solid;
+  color: #664344;
+  border-width: 2px;
+  padding: 0px;
+  
+  
+}
+#navbar li:hover {
+  
+  background-color: #654321;
+}
+#navbar a {
+  text-decoration: none;
+  margin-left: -10px;
+  display: block;
+  color: white;
+  padding: 20px 70px;
+}
+  
+ 
+}
